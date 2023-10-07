@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="/css/style.css">
+   
+</head>
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons button {
+      display: inline-block;
+      cursor: pointer;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+  </style>
+<body>
+    
+<!-- here is the nav baar  -->
+
+
+<header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Here is end nav baar -->
+
+
+
+  <!-- Here is img  -->
+
+  <div class="bd-example my-4">
+                
+    <img src="/1eba802c8207e841aae650084902f511.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
+    
+    
+    </div>
+
+
+  <!-- End -->
+
+
+  <!-- About us -->
+
+  
+<div class="row featurette m-4">
+
+
+    <div class="container marketing">
+  
+      <!-- Three columns of text below the carousel -->
+   
+  
+      <!-- START THE FEATURETTES -->
+  
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="/Firefly air conditioner mechanic 20927.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ENDs -->
+
+
+
+
+   <!-- Good Services -->
+
+ <!-- Swiper -->
+
+ <div #swiperRef="" class="swiper mySwiper m-4">
+    <div class="hedaing">
+        <h1 style="font-weight: bolder;">Customer review</h1>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="main" style="display: flex;">
+        <div class="re">
+            <h3>Nazim</h3>
+        <div class="pera">
+        <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+    </div>
+</div>
+</div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="main" style="display: flex;">
+            <div class="re">
+                <h3>Nazim</h3>
+            <div class="pera">
+            <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+        </div>
+    </div>
+    </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="main" style="display: flex;">
+            <div class="re">
+                <h3>Nazim</h3>
+            <div class="pera">
+            <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+        </div>
+    </div>
+    </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="main" style="display: flex;">
+            <div class="re">
+                <h3>Nazim</h3>
+            <div class="pera">
+            <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+        </div>
+    </div>
+    </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="main" style="display: flex;">
+            <div class="re">
+                <h3>Nazim</h3>
+            <div class="pera">
+            <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+        </div>
+    </div>
+    </div>
+      </div>
+      <div class="swiper-slide">    
+        <div class="main" style="display: flex;">
+        <div class="re">
+            <h3>Nazim</h3>
+        <div class="pera">
+        <p style="font-size: 10px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure perferendis inventore laudantium, error cum harum ipsum sunt quod similique,</p>
+    </div>
+</div>
+</div></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- <p class="append-buttons">
+    <button class="prepend-2-slides">Prepend 2 Slides</button>
+    <button class="prepend-slide">Prepend Slide</button>
+    <button class="append-slide">Append Slide</button>
+    <button class="append-2-slides">Append 2 Slides</button>
+  </p> -->
+   
+
+   <!-- End -->
+
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 3,
+     centeredSlides: true,
+     spaceBetween: 30,
+     pagination: {
+       el: ".swiper-pagination",
+       type: "fraction",
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+
+   var appendNumber = 6;
+   var prependNumber = 1;
+   document
+     .querySelector(".prepend-2-slides")
+     .addEventListener("click", function (e) {
+       e.preventDefault();
+       swiper.prependSlide([
+         '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+         '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+       ]);
+     });
+   document
+     .querySelector(".prepend-slide")
+     .addEventListener("click", function (e) {
+       e.preventDefault();
+       swiper.prependSlide(
+         '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+       );
+     });
+   document
+     .querySelector(".append-slide")
+     .addEventListener("click", function (e) {
+       e.preventDefault();
+       swiper.appendSlide(
+         '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+       );
+     });
+   document
+     .querySelector(".append-2-slides")
+     .addEventListener("click", function (e) {
+       e.preventDefault();
+       swiper.appendSlide([
+         '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+         '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+       ]);
+     });
+ </script>
+
+
+<!-- End -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>  
+  </html>
